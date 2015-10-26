@@ -1,5 +1,5 @@
-﻿// Author: Alexey Boinskij, MITA DEV15-03 
-// HowmeWork 1
+﻿// Author: Alexey Boinskij, MITA Desktop 15-03 
+// HowmeWork1
 // Date: 25 oct 2015
 
 using System;
@@ -14,9 +14,9 @@ namespace View
         private static void Main(string[] args)
         {
             // Возникли проблемы с кодировками
-            // Чтобы киррилические символы правильно отображались
+            // Чтобы кириллические символы правильно отображались
             // нужно настроить консоль (изменить шрифт на не-растровый, например, Consolas)
-            // Или просто не пользоваться киррилицей.      
+            // Или просто не пользоваться кириллицей.      
             Console.WriteLine("Programma \"Koshka dlya programmista\"");
             Console.WriteLine("Vvedite \"1\" chtoby ispol'zovat' kirrilitsu");
             Console.WriteLine("ili luboj drugoj simvol chotoby prodolzhat ispol'zovat translit");
