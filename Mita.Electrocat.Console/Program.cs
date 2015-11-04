@@ -1,5 +1,5 @@
 ﻿// Author: Alexey Boinskij, MITA Desktop 15-03 
-// HowmeWork1
+// HomeWork1
 // Date: 25 oct 2015
 
 using System;
@@ -18,7 +18,7 @@ namespace View
             // нужно настроить консоль (изменить шрифт на не-растровый, например, Consolas)
             // Или просто не пользоваться кириллицей.      
             Console.WriteLine("Programma \"Koshka dlya programmista\"");
-            Console.WriteLine("Vvedite \"1\" chtoby ispol'zovat' kirrilitsu");
+            Console.WriteLine("Vvedite \"1\" chtoby ispol'zovat' kirillitsu");
             Console.WriteLine("ili luboj drugoj simvol chotoby prodolzhat ispol'zovat translit");
             char key = Console.ReadKey().KeyChar;
             Console.WriteLine("\n");
@@ -132,7 +132,7 @@ namespace View
 
                     // покормить
                     case 5:
-                        theCat.Punish();
+                        theCat.Feed();
                         Console.WriteLine("Vy pokormili koshku.");
                         break;
 
@@ -250,7 +250,7 @@ namespace View
 
                     // покормить
                     case 5:
-                        theCat.Punish();
+                        theCat.Feed();
                         Console.WriteLine("Вы покормили кошку.");
                         break;
 

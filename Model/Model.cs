@@ -1,5 +1,5 @@
 ﻿// Author: Alexey Boinskij, MITA Desktop 15-03
-// HowmeWork1 
+// HomeWork1 
 // Date: 25 oct 2015
 
 namespace Model
